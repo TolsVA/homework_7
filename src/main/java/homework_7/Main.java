@@ -16,7 +16,7 @@ public class Main {
         graph.addEdge("Тула", "Липецк", 19, 20);
         graph.addEdge("Липецк", "Воронеж", 25, 30);
         graph.addEdge("Москва", "Рязань", 13, 80);
-        graph.addEdge("Рязань", "Тамбов", 14, 120);
+        graph.addEdge("Рязань", "Тамбов", 15, 120);
         graph.addEdge("Тамбов", "Саратов", 15, 90);
         graph.addEdge("Саратов", "Воронеж", 16, 70);
         graph.addEdge("Москва", "Калуга", 17, 80);
@@ -26,6 +26,7 @@ public class Main {
         graph.addEdge("Тула", "Тамбов", 22, 130);
         graph.addEdge("Калуга", "Тамбов", 23, 140);
 
+        graph.addEdge("Саратов", "Орёл", 25, 30);
         graph.addEdge("Липецк", "Саратов", 25, 30);
         graph.addEdge("Орёл", "Саратов", 19, 100);
 
